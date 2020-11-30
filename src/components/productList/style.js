@@ -1,0 +1,192 @@
+const useStyles = (theme) => ({
+  productListHeader: {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    margin: '0 30px',
+  },
+  productListTitle: {
+    width: '95px',
+    height: '21px',
+    fontFamily: 'Manrope',
+    marginTop: '16px',
+    fontSize: '16px',
+    fontWeight: 'bold',
+    fontStretch: 'normal',
+    fontStyle: 'normal',
+    lineHeight: 'normal',
+    letterSpacing: 'normal',
+    textAlign: 'center',
+    color: '#000000',
+  },
+  selectBusiness: {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    width: '116px',
+    height: '28px',
+    marginTop: '13px',
+    padding: '6px 6px 4px 6px',
+    borderRadius: '6px',
+    backgroundColor: '#f2f5fc',
+  },
+  clientName: {
+    height: '16px',
+    margin: '6px 4px 6px 8px',
+    fontFamily: 'Manrope',
+    fontSize: '12px',
+    fontWeight: 'bold',
+    fontStretch: 'normal',
+    fontStyle: 'normal',
+    lineHeight: 'normal',
+    letterSpacing: ' normal',
+    textAlign: 'right',
+    color: '#0033cc',
+    textTransform: 'upperCase',
+  },
+  arrowLogo: {
+    margin: '6px 6px 4px 0px',
+  },
+
+  productCardContainer: {
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+    marginLeft: '24px',
+    marginRight: '24px',
+    marginBottom: '24px',
+  },
+
+  chooseBusinessContainer: {
+    marginTop: '33px',
+    padding: '3px 15px 15px 15px',
+    display: 'flex',
+    maxHeight: '510px',
+    flexDirection: 'column',
+    overflowY: 'scroll',
+    marginBottom: '45px',
+  },
+  chooseBusinessTitle: {
+    width: '172px',
+    height: '22px',
+    fontFamily: 'Manrope',
+    fontSize: '16px',
+    fontWeight: 'bold',
+    fontStretch: 'normal',
+    fontStyle: 'normal',
+    lineHeight: 'normal',
+    letterSpacing: 'normal',
+    textAlign: 'left',
+    color: '#000000',
+  },
+  clientItem: {
+    padding: '5px 15px',
+    backgroundColor: '#f2f5fc',
+    marginBottom: '3%',
+    borderRadius: '8px',
+    position: 'relative',
+  },
+  clientBorder: {
+    padding: '5px 15px',
+    backgroundColor: '#f2f5fc',
+    marginBottom: '3%',
+    borderRadius: '8px',
+    position: 'relative',
+    border: '2px solid #0033cc',
+  },
+  clientSubmit: {
+    width: 'calc(100% - 30px)',
+    height: '48px',
+    fontFamily: 'Manrope',
+    textTransform: 'capitalize',
+    position: 'absolute',
+    bottom: '30px',
+    borderRadius: '8px',
+  },
+  formControlLabel: {
+    padding: '10px',
+  },
+  clientCheckbox: {
+    position: 'absolute',
+    right: '3%',
+    borderRadius: '50%',
+  },
+  curvedBorder: {
+    borderRadius: '50px 50px 0 0',
+  },
+  icon: {
+    marginLeft: theme.spacing(1),
+    borderRadius: '50%',
+    width: 21,
+    height: 21,
+    boxShadow:
+      'inset 0 0 0 1px rgba(16,22,26,.2), inset 0 -1px 0 rgba(16,22,26,.1)',
+    backgroundColor: '#f5f8fa',
+    backgroundImage:
+      'linear-gradient(180deg,hsla(0,0%,100%,.8),hsla(0,0%,100%,0))',
+    '$root.Mui-focusVisible &': {
+      outline: '2px auto #0033cc',
+      outlineOffset: 2,
+    },
+    'input:hover ~ &': {
+      backgroundColor: '#ebf1f5',
+    },
+    'input:disabled ~ &': {
+      boxShadow: 'none',
+      background: 'rgba(206,217,224,.5)',
+    },
+  },
+  checkedIcon: {
+    backgroundColor: '#0033cc',
+    backgroundImage:
+      'linear-gradient(180deg,hsla(0,0%,100%,.1),hsla(0,0%,100%,0))',
+    '&:before': {
+      display: 'block',
+      width: 21,
+      height: 21,
+      backgroundImage:
+        "url(\"data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath" +
+        " fill-rule='evenodd' clip-rule='evenodd' d='M12 5c-.28 0-.53.11-.71.29L7 9.59l-2.29-2.3a1.003 " +
+        "1.003 0 00-1.42 1.42l3 3c.18.18.43.29.71.29s.53-.11.71-.29l5-5A1.003 1.003 0 0012 5z' fill='%23fff'/%3E%3C/svg%3E\")",
+      content: '""',
+    },
+    'input:hover ~ &': {
+      backgroundColor: '#0033cc',
+    },
+  },
+  divider: {
+    height: '1px',
+    margin: '13px 0 24px 0',
+    border: 'solid 0.5px #808080',
+  },
+  dividerTwo: {
+    height: '1px',
+    margin: '13px 0 24px 0',
+    border: 'solid 0.5px #808080',
+  },
+  addBusinessBox: {
+    width: '238px',
+    height: '24px',
+    padding: '1px 12px',
+    borderRadius: '12px',
+    border: 'solid 0.5px #808080',
+    backgroundColor: '#ffffff',
+    position: 'absolute',
+    bottom: '102px',
+    left: '61px',
+  },
+  addBusinessTitle: {
+    textAlign: 'center',
+    height: '22px',
+    fontFamily: 'Manrope',
+    fontSize: '16px',
+    fontWeight: 'normal',
+    fontStretch: 'normal',
+    fontStyle: 'normal',
+    lineHeight: 'normal',
+    letterSpacing: 'normal',
+    color: '#000000',
+  },
+});
+
+export default useStyles;

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="46px" viewBox="0 0 46 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Icon/Member Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="-2.48949813e-15%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FEB5B5" stop-opacity="0.6" offset="0%"></stop>
+            <stop stop-color="#FFD07A" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="23" cy="23" r="23"></circle>
+        <filter x="-173.8%" y="-125.9%" width="447.6%" height="351.7%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="7" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0.145098039  0 0 0 0.04 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="1.44292164%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#C08355" offset="0%"></stop>
+            <stop stop-color="#ED9F6A" offset="100%"></stop>
+        </linearGradient>
+        <path d="M12.9308073,19.3048872 C12.9482561,20.5939257 14.0767606,21.5704642 16.316321,22.2049604 C13.6177231,24.0462767 10.9191253,25.5193298 8.22052741,25.5193298 C5.52192955,25.5193298 2.8233317,24.0462767 0.12473384,22.2049604 C2.34911242,21.5698169 3.4773811,20.621693 3.50953988,19.3605886 C3.50888128,19.1357681 3.49375143,14.1963966 3.48366333,12.0414566 C1.37403663,9.47603959 2.14898608,6.46835341 2.8101406,6.54336152 C3.62128055,6.63538552 10.6429807,0.383986892 11.9898374,0.0641258639 C13.336694,-0.255735165 16.7579097,0.777715548 17.3466947,3.66053854 C17.9354797,6.54336152 18.1815872,13.809781 15.9483304,16.7108681 C15.3128199,17.5364207 14.296909,17.8573137 12.9308073,17.6775591 C12.9295758,18.0797784 12.9295758,18.622221 12.9308073,19.3048872 Z" id="path-6"></path>
+        <path d="M33.75,5.57380206 C34.7020229,7.45837502 35.4520229,10.5738866 36,14.9203367 L0,14.9203367 C0.548239165,10.5733995 1.29823916,7.45788798 2.25,5.57380206 C3.20176084,3.68971614 6.45672454,1.8739048 12.0148911,0.126368048 C13.621894,3.33896172 22.4411647,3.33860714 23.9806204,0.125380981 C29.5415173,1.87308874 32.7979771,3.6892291 33.75,5.57380206 Z" id="path-8"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Avatar/KidMale">
+            <g id="Kid_Male" transform="translate(23.000000, 23.000000) scale(-1, 1) translate(-23.000000, -23.000000) ">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <g id="Mask">
+                    <use fill="#FFFFFF" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                </g>
+                <g id="Group-10" mask="url(#mask-3)">
+                    <g transform="translate(11.000000, 8.000000)" id="Group-11">
+                        <g>
+                            <g transform="translate(10.500000, 14.500000) scale(-1, 1) translate(-10.500000, -14.500000) " id="Group-2">
+                                <g>
+                                    <g id="Group-14" filter="url(#filter-4)">
+                                        <g id="Path-48" transform="translate(0.766423, 2.333333)">
+                                            <mask id="mask-7" fill="white">
+                                                <use xlink:href="#path-6"></use>
+                                            </mask>
+                                            <use id="Combined-Shape" fill="url(#linearGradient-5)" xlink:href="#path-6"></use>
+                                            <path d="M13.0291971,17.7333333 C10.7810219,17.4740741 8.94160584,16.8518519 7.51094891,15.8666667 C8.73722628,17.9407407 10.5766423,19.1851852 13.0291971,19.6 L13.0291971,17.7333333 Z" fill="#A85832" fill-rule="nonzero" mask="url(#mask-7)"></path>
+                                        </g>
+                                        <path d="M3.12097139,15.70491 C2.09875568,13.1907697 -1.99765833,8.07068692 1.5332733,4.88448509 C2.72020193,-1.03274688 9.27816365,-0.377823035 13.654963,0.987692035 C16.5966124,1.90545552 18.8179215,3.71872218 19.292874,2.35320711 C22.2601955,4.88448509 20.7742143,7.3600957 18.8179215,8.07068692 C17.0425264,8.71557 14.0402605,9.36034004 8.93592107,8.75344446 C8.02408063,8.64502848 8.21503894,11.5008595 7.72774258,11.8096573 C6.99679804,12.272854 6.4293539,9.36034004 4.42528083,10.2348417 C2.42120777,11.1093433 3.6103984,15.1643044 5.76170654,15.1643044 C6.50353693,15.1643044 6.87445213,17.2499827 4.87151007,18.236188 C3.41770354,18.9669738 3.78517267,17.3385135 3.12097139,15.70491 Z" id="Path-22" fill="#000000"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group-21" mask="url(#mask-3)">
+                    <g transform="translate(5.000000, 31.000000)">
+                        <mask id="mask-9" fill="white">
+                            <use xlink:href="#path-8"></use>
+                        </mask>
+                        <use id="Combined-Shape" stroke="none" fill="#00365D" fill-rule="nonzero" xlink:href="#path-8"></use>
+                        <path d="M38.1355932,10.990099 L38.1355932,12.1782178 L-1.52542373,12.1782178 L-1.52542373,10.990099 L38.1355932,10.990099 Z M38.1355932,8.01980198 L38.1355932,9.20792079 L-1.52542373,9.20792079 L-1.52542373,8.01980198 L38.1355932,8.01980198 Z M38.1355932,5.04950495 L38.1355932,6.23762376 L-1.52542373,6.23762376 L-1.52542373,5.04950495 L38.1355932,5.04950495 Z" id="Combined-Shape" stroke="none" fill="#3D80B0" fill-rule="nonzero" mask="url(#mask-9)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

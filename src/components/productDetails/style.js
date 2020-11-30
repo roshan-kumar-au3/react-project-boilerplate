@@ -1,0 +1,156 @@
+const useStyles = () => ({
+  clinikkSpecialBox: {
+    marginBottom: '30px',
+    position: 'relative',
+    marginTop: '26.2px',
+    height: '108px',
+  },
+  clinikkSpecialBoxTitle: {
+    padding: '12px 0 12px 22px',
+    fontFamily: 'Manrope',
+    color: '#808080',
+    fontSize: '12px',
+    textTransform: 'uppercase',
+  },
+  clinikkSpecialBoxContent: {
+    height: '108px',
+    marginLeft: '18px',
+    marginRight: '17px',
+    borderRadius: '8px',
+    backgroundColor: '#f2f5fc',
+    paddingLeft: '16px',
+    paddingTop: '16px',
+    cursor: 'pointer',
+  },
+  clinikkSpecialBoxContentHeading: {
+    fontFamily: 'Manrope',
+    fontSize: '16px',
+    fontWeight: 'bold',
+    fontStretch: 'normal',
+    fontStyle: 'normal',
+    lineHeight: 'normal',
+    letterSpacing: 'normal',
+    color: '#000000',
+  },
+  clinikkSpecialBoxContentSubHeading: {
+    fontFamily: 'Manrope',
+    fontSize: '12px',
+    fontWeight: 'normal',
+    fontStretch: 'normal',
+    fontStyle: 'normal',
+    lineHeight: 'normal',
+    letterSpacing: 'normal',
+    color: '#000000',
+    marginTop: '4px',
+    objectFit: 'contain',
+    marginBottom: '13px',
+  },
+  clinikkSpecialSubBox: {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  clinikkSpecialSubBoxContent: {
+    marginLeft: '6px',
+    fontFamily: 'Manrope',
+    fontSize: '16px',
+    fontWeight: 'bold',
+    fontStretch: 'normal',
+    fontStyle: 'normal',
+    lineHeight: 'normal',
+    letterSpacing: 'normal',
+    color: '#0033cc',
+  },
+  clinikkSpecialBoxImage: {
+    position: 'absolute',
+    right: '22px',
+    width: '141px',
+    bottom: '-10px',
+  },
+  mostLikedFeaturesBox: {
+    padding: '22px',
+  },
+
+  greyTitleText: {
+    height: '16px',
+    fontFamily: 'Manrope',
+    fontSize: '12px',
+    fontWeight: 'bold',
+    fontStretch: 'normal',
+    fontStyle: 'normal',
+    lineHeight: 'normal',
+    letterSpacing: '0.8px',
+    textAlign: 'left',
+    color: '#808080',
+    marginTop: '12px',
+    marginBottom: '6px',
+    textTransform: 'uppercase',
+  },
+
+  mostLikedFeaturesItem: {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    alignContent: 'center',
+    justifyContent: 'flex-start',
+    marginTop: '12px',
+  },
+
+  mostLikedFeatureIcon: {
+    height: '48px',
+    width: '48px',
+  },
+
+  mostLikedFeatureName: {
+    fontFamily: 'Manrope',
+    color: '#000000',
+    fontSize: '16px',
+    textTransform: 'capitalize',
+    marginLeft: '8px',
+    fontWeight: 'bold',
+  },
+
+  policyFeatureNameBold: {
+    fontFamily: 'Manrope',
+    color: '#000000',
+    fontSize: '16px',
+    textTransform: 'capitalize',
+  },
+
+  moreDetailsButton: {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    alignContent: 'center',
+    justifyContent: 'flex-start',
+    marginTop: '12px',
+    padding: '22px',
+  },
+
+  moreDetailsName: {
+    fontFamily: 'Manrope',
+    color: '#0033cc',
+    fontSize: '16px',
+    textTransform: 'capitalize',
+    marginLeft: '2px',
+    fontWeight: 'bold',
+  },
+
+  moreDetailsDrawerBox: {
+    backgroundColor: '#ffffff',
+    borderTopLeftRadius: '15px',
+    borderTopRightRadius: '15px',
+    padding: '25px',
+    display: 'flex',
+    flexDirection: 'column',
+    alignContent: 'center',
+    overflow: 'hidden',
+    justifyContent: 'flex-start',
+    top: '50px',
+  },
+  scrollableContent: {
+    overflow: 'scroll',
+  },
+});
+
+export default useStyles;
